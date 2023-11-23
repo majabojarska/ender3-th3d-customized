@@ -1055,7 +1055,8 @@
   #if ENABLED(ENDER3)
     #define X_BED_SIZE 235
     #define Y_BED_SIZE 235
-    #define Z_MAX_POS 250
+    // #define Z_MAX_POS 250 // Original
+    #define Z_MAX_POS 230 // To avoid hitting custom knob
   #endif
   
   #if ENABLED(ENDER5)
